@@ -11,7 +11,7 @@ public class MultiplyTest {
     public void multiplyPositiveNumberWithNegativeNumberTest() {
         Multiply mult = new Multiply();
 
-        double resultMultiply = mult.executar(2,-10);
+        double resultMultiply = mult.execute(2,-10);
 
         assertEquals(-20, resultMultiply,0.0001);
     }

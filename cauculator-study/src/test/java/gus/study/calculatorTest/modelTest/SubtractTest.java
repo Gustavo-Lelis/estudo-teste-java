@@ -10,7 +10,7 @@ public class SubtractTest {
     public void subtractNumberPositiveWithNegativeTest(){
         Subtract sub = new Subtract();
 
-        double resultSub = sub.executar(1, -1);
+        double resultSub = sub.execute(1, -1);
 
         assertEquals(2, resultSub,0.0001);
     }

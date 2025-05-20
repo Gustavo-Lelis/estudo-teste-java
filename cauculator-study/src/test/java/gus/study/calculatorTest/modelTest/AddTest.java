@@ -11,7 +11,7 @@ public class AddTest {
     public void AddTwoNumberPositiveTest(){
         Add som = new Add();
 
-        double resultAdd = som.executar(1,2);
+        double resultAdd = som.execute(1,2);
 
         assertEquals(3,resultAdd, 0.0001);
     }

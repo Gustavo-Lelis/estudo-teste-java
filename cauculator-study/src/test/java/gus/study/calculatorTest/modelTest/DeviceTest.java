@@ -11,7 +11,7 @@ public class DeviceTest {
     public void DeviceNumberByZeroNumberTest(){
         Divide divide = new Divide();
 
-        ArithmeticException aex = assertThrows(ArithmeticException.class, () -> divide.executar(0,0));
+        ArithmeticException aex = assertThrows(ArithmeticException.class, () -> divide.execute(0,0));
 
         assertEquals("denominator equal to zero", aex.getMessage());
     }
