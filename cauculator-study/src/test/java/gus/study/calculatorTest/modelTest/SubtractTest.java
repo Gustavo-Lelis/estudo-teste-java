@@ -10,8 +10,8 @@ public class SubtractTest {
     public void subtractNumberPositiveWithNegativeTest(){
         Subtract sub = new Subtract();
 
-        double resultado = sub.executar(1, -1);
+        double resultSub = sub.executar(1, -1);
 
-        assertEquals(2, resultado,0.0001);
+        assertEquals(2, resultSub,0.0001);
     }
 }

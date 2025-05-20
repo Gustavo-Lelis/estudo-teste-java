@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class AddTest {
     @Test
 
-    public void AddTwoNumberPsotiveTest(){
+    public void AddTwoNumberPositiveTest(){
         Add som = new Add();
 
         double resultAdd = som.executar(1,2);

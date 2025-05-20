@@ -34,7 +34,7 @@ public class CalculatorApp {
         try{
             OperationService operationService = new OperationService();
 
-            System.out.println("Result: " + operationService.executOperation(op, first, second));
+            System.out.println("Result: " + operationService.executeOperation(op, first, second));
         }catch (Exception e){
             System.out.println("Erro de operação matemática: " + e.getMessage());
         }

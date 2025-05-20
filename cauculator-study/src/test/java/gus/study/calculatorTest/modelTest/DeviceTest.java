@@ -13,6 +13,6 @@ public class DeviceTest {
 
         ArithmeticException aex = assertThrows(ArithmeticException.class, () -> divide.executar(0,0));
 
-        assertEquals("Divisão por zero", aex.getMessage());
+        assertEquals("denominator equal to zero", aex.getMessage());
     }
 }

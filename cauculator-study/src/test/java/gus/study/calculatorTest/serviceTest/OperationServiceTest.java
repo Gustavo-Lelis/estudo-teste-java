@@ -14,10 +14,10 @@ public class OperationServiceTest {
         OperationService service = new OperationService();
 
         ArithmeticException aex = assertThrows(ArithmeticException.class, () ->
-        {service.executOperation(Operation.DIVIDE, 1, 0);
+        {service.executeOperation(Operation.DIVIDE, 1, 0);
         });
 
-        assertEquals("Divisão por zero", aex.getMessage());
+        assertEquals("denominator equal to zero", aex.getMessage());
 
     }
 

@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class MultiplyTest {
 
     @Test
-    public void multiplyPsitiveNumberWithNegativeNumberTest() {
+    public void multiplyPositiveNumberWithNegativeNumberTest() {
         Multiply mult = new Multiply();
 
         double resultMultiply = mult.executar(2,-10);

@@ -13,9 +13,9 @@ public class OperationService {
             Operation.DIVIDE, new Divide()
     );
 
-    public double executOperation(Operation op, double a, double b) {
+    public double executeOperation(Operation op, double a, double b) {
         Action action = operations.get(op);
-        if (action == null) throw new IllegalArgumentException("Operação inválida");
+        if (action == null) throw new IllegalArgumentException("Invalid operation");
         return action.executar(a, b);
     }
 

@@ -11,15 +11,15 @@ public class ValidationInput {
 
     public double readDouble(String mensagem) {
         double value = 0;
-        boolean valido = false;
+        boolean valid = false;
 
-        while (!valido) {
+        while (!valid) {
             System.out.print(mensagem);
 
             if (scanner.hasNextDouble()) {
                 value = scanner.nextDouble();
                 scanner.nextLine();
-                valido = true;
+                valid = true;
             } else {
                 System.out.println("Entrada inválida. Por favor, digite um número válido.");
                 scanner.nextLine();
